@@ -1,0 +1,31 @@
+.RootHeader {
+  position: relative
+  ;
+  background-color: #fff;
+  height: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10%;
+
+  overflow: hidden;
+}
+
+.RootHeader .ClickableLogo {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+.RootHeader .NavBar {
+}
+
+.RootHeader .NavBar .ButtonHolder *:hover {
+  color: #dc143c;
+}
+
+.RootHeader .ClickableLogo .Logo img {
+  width: 50px;
+}

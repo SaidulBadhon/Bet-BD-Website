@@ -1,0 +1,85 @@
+.SingUpForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+
+}
+
+.SingUpForm .SingUpImage {
+  width: 100%;
+  height: 100%;
+  background-color: #EFEFF9;
+  margin-left: -45%;
+  margin-top: -0px;
+  z-index: -10;
+
+}
+
+.SingUpForm .SingUpImage img{
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+.SingUpForm .BaseContainer {
+  position: absolute;
+  background-color: #EFEFF9;
+  right: 0px;
+  height: 100%;
+  width: 35%;
+  z-index: 10;
+}
+
+.SingUpForm .BaseContainer .content {
+  padding: 10% 10%;
+}
+
+.SingUpForm .BaseContainer .content h1 {
+  line-height: 0em;
+}
+
+.RememberMe-Text {
+  padding-top: 25px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.FormFields .FirstAndLastName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.FormFields .FirstAndLastName .TextField{
+  width: 47%;
+}
+
+.Ref-Text h6 {
+  font-size: 1rem;
+  color: #444;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 500;
+
+}
+
+.Ref-Text h6 a {
+  text-decoration: none;
+  color: #444;
+
+  transition: color .2s ease-in-out;
+}
+
+.Ref-Text h6 a:hover {
+
+  color: rgb(220,20,60);
+
+}

@@ -1,0 +1,37 @@
+.Contener-Main {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  top: 10px;
+  justify-content: space-around;
+}
+
+.Contener-Main .Toolbar {
+  width: 175px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+  background-color: white;
+
+  /*margin-right: 20px;*/
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;  
+  
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+
+.Contener-Main .Toolbar:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  background-color: rgba(220, 20, 60, 0.75);
+}
+
+.Toolbar .Logo {
+  width: 50px;
+  left: 10px;
+}

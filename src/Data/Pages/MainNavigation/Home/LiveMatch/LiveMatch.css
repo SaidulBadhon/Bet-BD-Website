@@ -1,0 +1,154 @@
+.LiveMatch-Header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  top: 30px;
+  
+
+}
+
+@-ms-keyframes spin { 
+  from { 
+      -ms-transform: rotate(0deg); 
+  } to { 
+      -ms-transform: rotate(360deg); 
+  }
+}
+@-moz-keyframes spin { 
+  from { 
+      -moz-transform: rotate(0deg); 
+  } to { 
+      -moz-transform: rotate(360deg); 
+  }
+}
+@-webkit-keyframes spin { 
+  from { 
+      -webkit-transform: rotate(0deg); 
+  } to { 
+      -webkit-transform: rotate(360deg); 
+  }
+}
+@keyframes spin { 
+  from { 
+      transform: rotate(0deg); 
+  } to { 
+      transform: rotate(360deg); 
+  }
+}
+.LiveMatch-Header *:hover {
+cursor: pointer;
+}
+.LiveMatch-Header:hover #Reload-Icon{
+
+
+ -webkit-animation-name: spin;
+ -webkit-animation-duration: 1000ms;
+ -webkit-animation-iteration-count: infinite;
+ -webkit-animation-timing-function: linear;
+
+ -moz-animation-name: spin;
+ -moz-animation-duration: 1000ms;
+ -moz-animation-iteration-count: infinite;
+ -moz-animation-timing-function: linear;
+
+ -ms-animation-name: spin;
+ -ms-animation-duration: 1000ms;
+ -ms-animation-iteration-count: infinite;
+ -ms-animation-timing-function: linear;
+
+ animation-name: spin;
+ animation-duration: 1000ms;
+ animation-iteration-count: infinite;
+ animation-timing-function: linear;
+
+}
+
+.LiveMatch-Body {
+  position: relative;
+
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+
+  top: 50px;
+
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.LiveMatch-Body .Contener-Box {
+  width: 300px;
+  height: 275px;
+
+  min-width: 300px;
+  min-height: 275px;
+
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+
+  border-radius: 10px;
+  overflow: hidden;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.LiveMatch-Body .Contener-Box:hover {
+  transform: scale(1.025);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.LiveMatch-Body .Contener-Box .Image img {
+  width: 300px;
+  height: 175px;
+}
+
+
+.Contener-Box .Image .backgroundImg img {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+  transform: scale(1.03);
+  overflow: hidden;
+}
+
+.TeamsVersus {
+  position: relative;
+  top: -145px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.TeamNameText {
+  position: relative;
+  top: 10px;
+  color: rgba(256, 256, 256, 0.9);
+}
+
+.Contener-Box .Data {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  top: -105px;
+  padding-top: 12px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.Data button {
+  background-color: rgb(220, 20, 60);
+  color: white;
+  margin-top: 15px;
+  padding-top: 9px;
+  width: 40%;
+  border-radius: 50px;
+
+}
+
+.Data button:hover {
+  background-color: rgba(220, 20, 60, 0.75);
+}

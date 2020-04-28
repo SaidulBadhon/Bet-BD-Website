@@ -1,0 +1,130 @@
+.TopEarnedUsers {
+    margin-top : 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background: transparent;
+
+}
+
+
+.TopEarnedUsers .Header {
+    padding-bottom: 10px;
+
+}
+.TopEarnedUsers .Header h3 {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #7e7e7e;
+}
+
+.TopEarnedUsers .Header {
+    height: 25px;
+
+    background: transparent;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.TopEarnedUsers  .TopEarnedUsers-Body {
+    background-color: white;
+    width: 100%;
+    height: 375px;
+
+    margin-bottom: 25px;
+
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    
+    overflow: hidden;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.TopEarnedUsers .TopEarnedUsers-Body .Table .Table-Header{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+
+    background: rgba(0, 0, 0, .05);
+}
+
+.TopEarnedUsers .TopEarnedUsers-Body .Table .Table-Data1{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background: rgba(0, 0, 0, 0);
+}
+
+.TopEarnedUsers .TopEarnedUsers-Body .Table .Table-Data2{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background: rgba(0, 0, 0, .05);
+}
+
+.TopEarnedUsers-Body .Table .Table-Header h3{
+    font-size: 1rem;
+
+    color: rgba(75, 75, 75, 1);
+}
+
+.TopEarnedUsers-Body .Table .Table-Data1 h6{
+    font-size: 1rem;
+    color: rgba(75, 75, 75, 1);
+
+
+
+
+    padding: 0px;
+    margin:0px;
+    margin-top: 23px;
+
+}
+
+.TopEarnedUsers-Body .Table .Table-Data2 h6{
+    font-size: 1rem;
+    color: rgba(75, 75, 75, 1);
+
+
+    padding: 0px;
+    margin:0px;
+    margin-top: 23px;
+
+
+
+}
+
+.UserAvatar{
+    display:flex;
+    flex-direction: row;
+
+    justify-content: right;
+    align-content: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 25px;
+}
+
+.UserAvatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    align-self: center;
+
+}
+
+
+.UserAvatar h5 {
+    align-self: center;
+    font-size: 1rem;
+    
+    padding: 0px;
+    margin: 0px;
+
+    color: rgba(75, 75, 75, 1);
+    font-weight: 600;
+    margin-left: 10px;
+}
+

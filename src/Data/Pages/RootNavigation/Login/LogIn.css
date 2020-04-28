@@ -1,0 +1,141 @@
+
+.LogInForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+}
+
+.LogInForm .LoginImage {
+  width: 100%;
+  height: 100%;
+  background-color: #EFEFF9;
+  margin-left: -100px;
+  margin-top: -125px;
+  z-index: -10;
+}
+
+.LogInForm .LoginImage img{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.LogInForm .BaseContainer {
+  position: absolute;
+  background-color: #EFEFF9;
+  right: 0px;
+  height: 100%;
+  width: 35%;
+  
+  z-index: 10;
+  
+}
+
+.LogInForm .BaseContainer .content {
+  padding: 0px 10%;
+  padding-top: 25%;
+}
+
+.LogInForm .BaseContainer .content h1 {
+  line-height: 0em;
+}
+
+.RememberMe-Text {
+  padding-top: 25px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.RememberMe-Text #Remember{
+  margin-right: 10px; 
+}
+
+.RememberMe-Text .RememberMe-Lable {
+  margin-top: -3px;
+}
+.RememberMe-Text .RememberMe-Lable h6 {
+  font-size: 1rem;
+  color: #444;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 4px;
+}
+
+.Ref-Text h6 {
+  font-size: 1rem;
+  color: #444;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.Ref-Text h6 a {
+  text-decoration: none;
+  color: #444;
+
+  transition: color .2s ease-in-out;
+}
+
+.Ref-Text h6 a:hover {
+
+  color: rgb(220,20,60);
+
+}
+
+/*
+
+.LogInForm .BaseContainer {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 100%;
+    display: flex;
+    z-index: 2;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .1);
+  
+    right: 15px;
+  }
+
+
+  .LogInForm .BaseContainer .content {
+    transform: scale(.80);
+    padding: 0px;
+  }
+
+
+  .RememberMe-Text {
+    padding-top: 25px;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .RememberMe-Text #Remember{
+      margin-right: 10px;
+  }
+
+  .RememberMe-Text .RememberMe-Lable {
+
+        margin-top: -3px;
+}
+
+
+
+
+
+.content .FormButton  {
+  height: 40px;
+  width: 50%;
+  border-radius: 100px;
+}
+
+
+*/

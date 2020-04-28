@@ -1,0 +1,269 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.AboutBeg1{
+    position: absolute;
+    background-image: url("../../../../Assets/Backgrounds/overlay2.svg");
+    background-size: cover;
+    background-color: white;
+
+    min-width: 100%;
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    top: 50px;
+    z-index: -10;
+
+}
+
+.AboutBeg2{
+    position: absolute;
+    background-image: url("../../../../Assets/Backgrounds/overlay3.svg");
+    background-size: cover;
+    background-color: white;
+
+    min-width: 100%;
+    width: 100%;
+    min-height: 100vh;
+    height: 195vh;
+    top: 715px;
+    z-index: -10;
+    box-shadow: 0px 10px 10px rgba(0,0,0,.05)
+
+}
+
+.About {
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    
+}
+.About .Contener {
+    width: 80%;
+    padding: 0px 10% ;
+    overflow: hidden;
+}
+
+.About .Contener .MainSection h1 {
+    color: #3a3a3a;
+    
+}
+.About .Contener .MainSection b {
+    display: block;
+    margin-top: 50px;
+}
+
+.About .Contener .Sections {
+    display: grid;
+    text-align: left;
+    margin-top: 100px
+}
+
+.About .Contener .Sections .Section1{
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+
+.About .Contener .Sections .Section1 h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 50px;
+    color: #4a4a4a;
+    line-height: 30px ;
+
+
+}
+.About .Contener .Sections .Section1 h5 a{
+    text-decoration: none;
+    color: #4a4a4a;
+
+
+    padding : 0px;
+    margin : 0px;
+
+}
+
+
+.About .Contener .Sections .Section1 p{
+    align-self: center;
+
+    color: #3a3a3a;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 24px;
+    text-align: justify;
+    text-justify: inter-word;
+
+
+}
+
+
+
+.About .Contener .Sections .Section1 p b{
+    display: block;
+    margin-top: 25px;
+}
+
+.About .Contener .Sections .Section1 img{
+    width: 450px;
+}
+
+
+
+
+
+.About .Contener .Sections .Section2{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 100px;
+
+}
+
+.About .Contener .Sections .Section2 img{
+    width: 500px;
+    margin-left: -50px;
+}
+
+.About .Contener .Sections .Section2 p{
+    align-self: center;
+
+    color: #3a3a3a;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 24px;
+    text-justify: inter-word;
+
+    margin-top: 40px;
+
+    
+
+}
+
+.About .Contener .Sections .Section2 p h4{
+    text-decoration: none;
+    color: #3a3a3a;
+    font-weight: bolder;
+
+    margin-top: -2px;
+
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.About .Contener .Sections .Section2 p b{
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.About .Contener .Sections .Section3{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 100px;
+
+}
+
+.About .Contener .Sections .Section3 p{
+    align-self: center;
+
+    color: #3a3a3a;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 24px;
+    text-justify: inter-word;
+    margin-top: 20px;
+
+}
+
+.About .Contener .Sections .Section3 p h4{
+    text-decoration: none;
+    color: #3a3a3a;
+    font-weight: bolder;
+
+    font-size: 1.15rem;
+    font-weight: 500;
+
+}
+
+.About .Contener .Sections .Section3 p b{
+    display: block;
+    margin-top: 50px;
+}
+
+.About .Contener .Sections .Section3 img{
+    width: 500px;
+    margin-left: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+.About .Contener .Sections .Section4 {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    margin-top: 100px;
+
+}
+
+.About .Contener .Sections .Section4 p{
+    align-self: center;
+
+    color: #3a3a3a;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 24px;
+    text-justify: inter-word;
+    margin-top: 20px;
+
+
+}
+
+.About .Contener .Sections .Section4 p h4{
+    text-decoration: none;
+    color: #3a3a3a;
+    font-weight: bolder;
+
+    font-size: 1.15rem;
+    font-weight: 500;
+
+}
+
+.About .Contener .Sections .Section4 p b{
+    display: block;
+    margin-top: 50px;
+}
+
+.About .Contener .Sections .Section4 img{
+    width: 450px;
+}
+
+
+
+.About .Contener .Sections .Section5 {
+    margin-top: 150px;
+    width: 70%;
+padding-right: 15%;
+padding-left: 15%;
+}
+
+.About .Contener .Sections .Section5 p {
+    text-align: center;
+    line-height: 25px;
+}
+
+.About .Contener .Sections .Section5 img{
+    padding-top: 50px;
+    padding-bottom: 150px;
+    width: 100%;
+}

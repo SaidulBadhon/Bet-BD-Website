@@ -1,0 +1,28 @@
+.HeaderProfileMenu{
+    position: absolute ;
+    background-color : white;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 20px;
+    height: 108px;
+    width: 150px;
+
+    top: 50px;
+    right: 6%;
+    z-index: 50;
+    overflow: hidden;
+}
+
+.HeaderProfileMenu .Container{
+    z-index: 50;
+    background-color: rgba(55, 42, 220, .05);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.HeaderProfileMenu .Container button{
+    width: 100%;
+    border-bottom:1px solid rgba(0, 0, 0, .15);
+    border-radius: 0px;
+}

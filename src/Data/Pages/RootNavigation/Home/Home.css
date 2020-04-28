@@ -1,0 +1,117 @@
+.HomeContainer {
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    
+    background-image: url("../../../../Assets/Backgrounds/overlay2.svg");
+    background-size: cover;
+
+
+}
+
+.LeftContainer {
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+
+    position: relative;
+    -webkit-animation: MoveUp 1s ease-in-out infinite alternate;
+    -moz-animation: MoveUp 1s ease-in-out infinite alternate;
+    animation: MoveUp 1s ease-in-out infinite alternate;
+    animation-iteration-count: 1
+
+}
+
+.LeftContainer h3 {
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+  text-indent: 0px;
+    line-height: 1.5;
+    color: #313131;
+
+}
+
+.LeftContainer h1 {
+    font-weight: 700;
+    font-size: 10rem;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin-left: -11px;
+    text-decoration: none;
+  text-indent: 0px;
+    line-height: .9;
+    color: #313131;
+
+
+
+}
+
+.LeftContainer h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+  text-indent: 0px;
+    line-height: 1.25;
+    color: #313131;
+
+}
+
+
+.RightContainer {
+  position: relative;
+    display: flex;
+    min-height: 90vh;
+    max-height: 100vh;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+
+
+
+    -webkit-animation: MoveUp 1s ease-in-out infinite alternate;
+    -moz-animation: MoveUp 1s ease-in-out infinite alternate;
+    animation: MoveUp 1s ease-in-out infinite alternate;
+    animation-iteration-count: 1
+
+}
+
+.RightContainer img {
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate ;
+}
+
+  @keyframes glow {
+    from {
+      filter: drop-shadow(1px 1px 5px rgb(20, 20, 220));
+    }
+    
+    to {
+        filter: drop-shadow(1px 1px 10px rgb(197, 20, 220));
+    }
+  }
+
+  @keyframes MoveUp {
+    from {
+        opacity: 0;
+        top: 50px;
+    }
+    
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+
+    } 

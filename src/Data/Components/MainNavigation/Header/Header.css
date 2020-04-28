@@ -1,0 +1,53 @@
+.MainHeader {
+  position: relative
+  ;
+  background-color: #fff;
+  height: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10%;
+
+}
+
+.MainHeader .ClickableLogo {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.MainHeader .NavBar .ButtonHolder *:hover {
+  color: #dc143c;
+}
+
+.MainHeader .ClickableLogo .Logo img {
+  width: 50px;
+}
+
+.MainHeader .Profile {
+  display: flex;
+  flex-direction: row;
+
+}
+.MainHeader .Profile .UserLogo img {
+  width: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+.MainHeader .Profile .UserData {
+margin-right: 5px;
+position: relative;
+
+transform: scale(.95);
+
+cursor: pointer;
+}
+.MainHeader .Profile .UserData .UserBalance {
+  position: absolute;
+  right: 0px;
+}
+  
