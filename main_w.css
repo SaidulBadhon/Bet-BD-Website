@@ -126,24 +126,24 @@ button {
   transition: all 0.2s ease-in-out;
 }
 
-.btn .btn-success {
+.buttonSuccess {
   background-color: #2ea043 !important;
   color: #ffffff;
 }
-.btn .btn-success:hover {
+.buttonSuccess:hover {
   background-color: #35a74a !important;
   color: #ffffff;
 }
-.btn .btn-success:active {
+.buttonSuccess:active {
   background-color: #329945 !important;
   color: #ffffff;
 }
 
-button:hover {
+.buttonSecondary:hover {
   background-color: #e9eaec;
   color: #24292f;
 }
-button:active {
+.buttonSecondary:active {
   background-color: #e9eaec !important;
   color: #24292f;
 }
@@ -344,7 +344,7 @@ a:hover {
 .editor .inputContainer .input {
   width: 100%;
   background-color: transparent;
-  min-height: 30px;
+  min-height: 40px;
   border: 1px solid #d0d7de;
   border-radius: 5px;
 
