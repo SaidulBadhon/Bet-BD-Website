@@ -12,18 +12,6 @@
   --ui: #ffffff;
   --backgroundColor: #ffffff;
 } */
-/* :root {
-  --textColor: #24292f;
-  --textColor2: #57606a;
-  --textColor3: #7e858c;
-
-  --buttonColor: #58a6ff;
-
-  --borderColor: #d0d7de;
-
-  --ui: #ffffff;
-  --backgroundColor: #ffffff;
-} */
 * {
   font-family: "Open Sans", sans-serif;
 
@@ -92,7 +80,7 @@
   object-fit: cover;
   border-radius: 50%;
 
-  outline: 2px solid #7e858c;
+  outline: 2px solid #dbdcdd;
 }
 
 h2 {
@@ -124,7 +112,7 @@ p {
 }
 
 button {
-  background-color: #21262d;
+  background-color: #f6f8fa;
   color: #24292f;
   font-weight: 600;
 
@@ -143,7 +131,7 @@ button {
 }
 
 button:hover {
-  background-color: #30363d;
+  background-color: #e9eaec;
 }
 
 a {
@@ -159,17 +147,17 @@ a {
   justify-content: center;
   align-items: center;
 
-  background-color: #7e858c66;
+  background-color: rgba(0, 0, 0, 0.05);
 
   transition: all 0.2s ease-in-out;
 }
 
 a:hover {
-  background-color: #7e858c;
+  background-color: #e9eaec;
 }
 
 .invertColor {
-  filter: invert(100%);
+  filter: invert(10%);
 }
 
 /* Right Section */
@@ -200,7 +188,7 @@ a:hover {
 }
 
 .widgetItem:hover {
-  border: 1px solid #57606a;
+  /* border: 1px solid #57606a; */
   cursor: pointer;
 }
 
