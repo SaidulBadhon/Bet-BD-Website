@@ -124,7 +124,7 @@ a {
   text-decoration: none;
 }
 
-a:has(svg) {
+.socialIcon {
   height: 40px;
   width: 40px;
   border-radius: 20px;
