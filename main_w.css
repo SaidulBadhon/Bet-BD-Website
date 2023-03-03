@@ -133,6 +133,9 @@ button {
 button:hover {
   background-color: #e9eaec;
 }
+button:active {
+  background-color: #e9eaec !important;
+}
 
 a {
   text-decoration: none;
