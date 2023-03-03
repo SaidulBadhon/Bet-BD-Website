@@ -143,20 +143,20 @@ button {
 }
 .buttonSuccess:hover {
   background-color: #35a74a !important;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .buttonSuccess:active {
   background-color: #329945 !important;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .buttonSecondary:hover {
   background-color: #30363d;
-  color: #c3cbd4;
+  color: #c3cbd4 !important;
 }
 .buttonSecondary:active {
   background-color: #30363d !important;
-  color: #c3cbd4;
+  color: #c3cbd4 !important;
 }
 
 a {
