@@ -128,13 +128,24 @@ button {
 
 .btn .btn-success {
   background-color: #2ea043 !important;
+  color: #ffffff;
+}
+.btn .btn-success:hover {
+  background-color: #35a74a !important;
+  color: #ffffff;
+}
+.btn .btn-success:active {
+  background-color: #329945 !important;
+  color: #ffffff;
 }
 
 button:hover {
   background-color: #e9eaec;
+  color: #24292f;
 }
 button:active {
   background-color: #e9eaec !important;
+  color: #24292f;
 }
 
 a {
