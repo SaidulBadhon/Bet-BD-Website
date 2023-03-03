@@ -128,24 +128,24 @@ button {
 
 .buttonSuccess {
   background-color: #2ea043 !important;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .buttonSuccess:hover {
   background-color: #35a74a !important;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .buttonSuccess:active {
   background-color: #329945 !important;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .buttonSecondary:hover {
   background-color: #e9eaec;
-  color: #24292f;
+  color: #24292f !important;
 }
 .buttonSecondary:active {
   background-color: #e9eaec !important;
-  color: #24292f;
+  color: #24292f !important;
 }
 
 a {
