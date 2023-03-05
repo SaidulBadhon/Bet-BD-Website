@@ -1,0 +1,65 @@
+.nft {
+  border: 1px solid #d0d7de;
+  border-radius: 5px;
+}
+.nft .nftGap {
+  border-top: 1px solid #d0d7de;
+}
+
+.nft .nftChecker {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  gap: 20px;
+  padding: 10px;
+}
+
+.nft .nftChecker > select {
+  height: 40px;
+
+  border-radius: 5px;
+  border: 1px solid #d0d7de;
+  color: #24292f;
+}
+.nft .nftChecker > select:focus-visible {
+  border: 1px solid #d0d7de;
+}
+
+.nft .nftChecker > input {
+  width: 100%;
+  background-color: transparent;
+  min-height: 40px;
+  border: 1px solid #d0d7de;
+  border-radius: 5px;
+
+  resize: vertical;
+
+  padding-inline: 7.5px;
+}
+
+.nft .nftView {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+.nft .nftView > img {
+  max-width: 250px;
+  width: 100%;
+  min-width: 150px;
+
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.nft .nftDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}
+.nft .nftDetails p {
+  color: #7e858c;
+}
+.nft .nftDetails p span {
+  color: #24292f;
+  font-weight: 600;
+}
