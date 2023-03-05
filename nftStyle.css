@@ -63,3 +63,29 @@
   color: #24292f;
   font-weight: 600;
 }
+
+button {
+  background-color: #f6f8fa;
+  color: #24292f;
+  font-weight: 600;
+
+  border: 1px solid #d0d7de;
+
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.buttonSecondary:hover {
+  background-color: #e9eaec;
+  color: #24292f !important;
+}
+.buttonSecondary:active {
+  background-color: #e9eaec !important;
+  color: #24292f !important;
+}
+
